@@ -46,6 +46,7 @@ public class findNumberOfPalindromeInString {
 	private static void helper(String _str,String _currentString, int _charNumber, Set<String> _strSet) {
 		// TODO Auto-generated method stub
 		if(_charNumber < _str.length()) {
+			String s = String.valueOf(_str);
 			
 			if(!_str.contains(_currentString)){
 				return;
